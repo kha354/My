@@ -1,0 +1,21 @@
+/* Màn hình nhỏ */
+body {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+/* Màn hình trung bình */
+@media (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* Màn hình lớn */
+@media (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+}
